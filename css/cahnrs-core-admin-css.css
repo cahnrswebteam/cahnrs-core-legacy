@@ -1,0 +1,113 @@
+/* CSS Document */
+.cc-form-feed-type input {
+	display: none;
+	max-width: 100%;
+}
+.cc-form-feed-type label {
+	display: inline-block;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background: #eee;
+	padding: 6px;
+}
+.cc-form-feed-type label.in-active {
+	opacity: 0.4;
+}
+.cc-form-feed-type label.active {
+	background: #fff;
+	position: relative;
+	bottom: -1px;
+}
+
+.cc-dynamic-section {
+	display: none;
+}
+.cc-dynamic-section.selected{
+	display: block;
+}
+
+
+.cc-form-feed-options {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px 0;
+}
+p.input-wrap  {
+	margin: 0;
+	padding: 6px 0;
+}
+
+.cc-form-feed-type-wrapper p.input-wrap  {
+	margin: 0 10px;
+	padding: 6px 0;
+}
+
+.cc-form-feed-options p.inline {
+	display: inline-block;
+	vertical-align: top;
+	margin: 8px 0px 8px 10px;
+}
+.cc-form-section > header {
+	color: #981e32;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 1.1em;
+	cursor: pointer;
+	background-image: url('http://brand.wsu.edu/wp-content/themes/brand/images/elements/plus-green-er.svg');
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+.cc-form-section > header.active {
+	background-image: url('http://brand.wsu.edu/wp-content/themes/brand/images/elements/x-green-er.svg');
+}
+
+.cc-form-section > header:nth-of-type(odd) {
+	background-color: #eff0f1;
+}
+.cc-form-section-advanced .section-wrapper,
+.cc-form-section .section-wrapper {
+	padding: 10px 0 15px;
+	display: none;
+}
+.cc-form-section .section-wrapper.active {
+	display: block;
+}
+.cc-form-section .section-wrapper .cc-inline-input {
+	display: inline-block; width: 50%;
+}
+
+.cc-form-section .section-wrapper .cc-inserted-items-wrap a {
+	display: block;
+	padding: 4px 10px;
+	margin: 4px 10px;
+	background: #777;
+	color: #fff;
+	border-radius: 3px;
+	border: 1px solid #555;
+	text-decoration: none;
+	position: relative;
+}
+.cc-form-section .section-wrapper .cc-inserted-items-wrap a span {
+	float: right;
+}
+
+.cc-form-section .section-wrapper .cc-inserted-items-wrap a:hover span {
+	color: #900; 
+}
+
+
+.cc-button-primary {
+margin: 4px;
+text-decoration: none;
+padding: 6px 10px;
+border-radius: 4px;
+display: inline-block;
+font-weight: bold;
+font-size: 1em;
+background: #2ea2cc;
+border-color: #0074a2;
+color: #fff;
+-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+}
